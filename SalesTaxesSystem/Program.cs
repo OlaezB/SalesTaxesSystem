@@ -31,8 +31,10 @@ namespace SalesTaxesSystem
                 .ConfigureServices((context, services) =>
                 {
                     services.AddTransient<App>();
+                    services.AddTransient<ITaxService, TaxService>();
                     services.AddTransient<ICartService, CartService>();
                     services.AddTransient<ISalesService, SalesService>();
+
                     services.AddTransient<IItemRepository, ItemRepository>();
                     services.AddTransient<ITaxRepository, TaxRepository>();
                 })
