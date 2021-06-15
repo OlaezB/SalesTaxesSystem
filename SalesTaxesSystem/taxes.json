@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "Basic tax",
+    "Value": 0.1,
+    "Classes": [ "All" ],
+    "Exceptions":  ["Food", "Book", "Medical"]
+  },
+  {
+    "Name": "Importation tax",
+    "Value": 0.05,
+    "Classes": ["Imported"],
+    "Exceptions": []
+  }
+]

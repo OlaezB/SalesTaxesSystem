@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "Name": "Chocolate bar",
+    "Price": 0.85,
+    "Classes" : ["Food"]
+  },
+  {
+    "Id": 2,
+    "Name": "Music CD",
+    "Price": 14.99,
+    "Classes": []
+  },
+  {
+    "Id": 3,
+    "Name": "Book",
+    "Price": 12.49,
+    "Classes": []
+  },
+  {
+    "Id": 4,
+    "Name": "Headache pills",
+    "Price": 9.75,
+    "Classes": ["Medicine"]
+  },
+  {
+    "Id": 5,
+    "Name": "Shirt",
+    "Price": 4.99,
+    "Classes": ["Imported"]
+  }
+]
