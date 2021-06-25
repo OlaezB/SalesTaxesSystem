@@ -13,7 +13,7 @@
 
 # Design
 This solution incorporates next features:
-  - Configuration: Configuration can be incorporated from files ('appsettings.json', 'appsettings.production.json'), and from environment variables also.
+  - Configuration: Configuration can be incorporated from files ('appsettings.json', 'appsettings.production.json'), and from environment variables as well.
   - Logging: Serilog has been added and configured to log into a text file ('log.text') rolling it every day.
   - Dependency Injection: DI pattern has been implemented to have a loosely coupled design in the solution, making it easier to mantain, extend and test.
   - Test Cases: Unit testing of main functionality has been added using the testing framework xUnit.
@@ -22,7 +22,7 @@ The solution has 4 projects on it
   - SalesTaxesSystem: Serves as the view of the application, handles user's input and data outputs. Presentation Layer
   - SalesTaxesSystem.BLL: Coordinates data flow and contains logic related to data manipulation. Business Logic Layer
   - SalesTaxesSystem.DAL: Operates transactions with one or more data stores. Data Access Layer
-  - SalesTaxesSystem.Test: Contains Test cases that verify the functioning of services and clasess. Test
+  - SalesTaxesSystem.Test: Contains Test cases that verify the functioning of services and clasess. Test Project
   
   
 # Specifications
